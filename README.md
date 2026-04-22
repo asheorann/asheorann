@@ -11,7 +11,7 @@ I'm drawn to problems with real constraints: enterprise systems that have to sca
 
 **Thinking about AI safety**
 
-A few questions I keep returning to: can inference-time interventions substitute for domain fine-tuning? Where does evaluation methodology itself become the bottleneck? What does "safe enough to deploy" actually mean when an agent is making consequential decisions?
+There's a spectrum from intrinsic safety (model weights, training) to extrinsic safety (environment constraints, scaffolding, governance) and most practical work lives in the middle without a clear theory of why. I want to understand what good technical solutions look like at each layer — beyond system prompt interventions, which feel like duct tape.
 
 - *Safety interventions for clinical agents* — layered evaluation harness testing whether structured inference-time interventions close the performance gap between frontier and domain-specific medical models, no fine-tuning
 - *SWE-bench agent evaluation* — baseline + intervention experiments on Claude 3.5 Sonnet; found interventions can shift failure distributions even when top-line resolve rate holds steady
@@ -27,7 +27,7 @@ A few questions I keep returning to: can inference-time interventions substitute
 
 **Other things I've built**
 
-- *[Google Search, 1998](link)* (private, request access) — full search engine from scratch: distributed crawler, TF-IDF indexer, PageRank, and search server on AWS EC2
+- *Google Search, 1998* (available upon request) — full search engine from scratch: distributed crawler, TF-IDF indexer, PageRank, and search server on AWS EC2
 - *[Image2GPS](https://github.com/asheorann/Image_Geolocation_ML_Group)* — predicts GPS coordinates from campus images using a ConvNeXt + k-NN hybrid; cut baseline localization error by ~70%
 - *Market forecasting tool* — deterministic, reproducible market forecasts for consulting teams through a 5-stage gated process
 - *[CBC demos](https://penncbc.com)* — tooling and demos built for Penn's AI builder community
@@ -38,9 +38,3 @@ A few questions I keep returning to: can inference-time interventions substitute
 
 - [Data reporting quality and semantic interoperability increase with community-based data elements](https://www.sciencedirect.com/science/article/pii/S0014488624004266) — *Experimental Neurology*, FAIR Data Informatics Lab, UCSD
 - *Enhancing Claude 3.5 Sonnet Reliability on SWE-bench Verified* — Penn CIS 7000, available on request
-
----
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=asheorann&show_icons=true&hide_border=true&count_private=true" />
-</p>
