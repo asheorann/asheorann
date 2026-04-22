@@ -11,7 +11,7 @@ I'm drawn to problems with real constraints: enterprise systems that have to sca
 
 **Thinking about AI safety**
 
-There's a spectrum from intrinsic safety (model weights, training) to extrinsic safety (environment constraints, scaffolding, governance) and most practical work lives in the middle without a clear theory of why. I want to understand what good technical solutions look like at each layer — beyond system prompt interventions, which feel like duct tape.
+There's a spectrum from intrinsic safety (model weights, training) to extrinsic safety (environment constraints, scaffolding, governance) and most practical work lives in the middle without a clear theory of why. I want to understand what good technical solutions look like at each layer, beyond system prompt interventions.
 
 - *Safety interventions for clinical agents* — layered evaluation harness testing whether structured inference-time interventions close the performance gap between frontier and domain-specific medical models, no fine-tuning
 - *SWE-bench agent evaluation* — baseline + intervention experiments on Claude 3.5 Sonnet; found interventions can shift failure distributions even when top-line resolve rate holds steady
