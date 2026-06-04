@@ -1,6 +1,6 @@
 <h1 align="center">Anushka Sheoran</h1>
 <p align="center">
-  MSE Computer Science @ Penn &nbsp;·&nbsp; <a href="mailto:asheoran@seas.upenn.edu">asheoran@seas.upenn.edu</a> &nbsp;·&nbsp; <a href="https://linkedin.com/in/anushka-sheoran/">LinkedIn</a>
+  MSE Computer Science @ Penn &nbsp;·&nbsp; <a href="mailto:asheoran@seas.upenn.edu">asheoran@seas.upenn.edu</a> &nbsp;·&nbsp; <a href="https://linkedin.com/in/anushka-sheoran/">LinkedIn</a> &nbsp;·&nbsp; <a href="https://asheorann.github.io/">Personal Website</a>
 </p>
 
 ---
